@@ -9,11 +9,11 @@
 
     <rdf:Description rdf:about="http://fedora.info/definitions/v4/indexing#">
       <dcterms:title xml:lang="en">Fedora Commons Indexing Ontology</dcterms:title>
-      <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2015-01-23</dcterms:modified>
       <dcterms:publisher rdf:resource="http://fedorarepository.org/"/>
       <rdfs:seeAlso rdf:resource="https://wiki.duraspace.org/display/FEDORA4x/External+Search"/>
       <rdfs:comment xml:lang="en">Ontology for indexing configuration in Fedora repositories.</rdfs:comment>
-      <owl:versionInfo>v4/2015/02/04</owl:versionInfo>
+      <owl:versionInfo>v4/2015/03/26</owl:versionInfo>
+      <owl:priorVersion rdf:resource="http://fedora.info/definitions/v4/2015/02/04/indexing" />
     </rdf:Description>
 
     <rdf:Property rdf:about="http://fedora.info/definitions/v4/indexing#hasIndexingTransformation">
